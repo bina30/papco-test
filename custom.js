@@ -13,7 +13,6 @@ $(window).scroll(function() {
     }
   });
   
-  
           var swiper = new Swiper(".mySwiper", {
           pagination: {
             el: ".swiper-pagination",
@@ -61,5 +60,14 @@ $(window).scroll(function() {
  
   }
         });
+		
+		
+		
+		    $(document).ready(function(){
+      $(".navbar-toggler").click(function(){
+        $(".navbar-collapse").toggleClass("show");
+
+      });
+    });
 
 
