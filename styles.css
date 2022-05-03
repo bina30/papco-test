@@ -1,0 +1,305 @@
+
+body{font-family: 'Roboto', sans-serif;box-sizing: border-box;}
+a{text-decoration: none;}
+a:hover{text-decoration: none;color: inherit;}
+.bg-light {
+    background-color: #fff!important;
+}
+/* ============================================header section====================================== */
+
+.nav-link {
+    display: block;
+
+    font-size: 15px;
+    color: #070706!important;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.form-control {
+    border: 1px solid #d4d4d4;font-family: 'Roboto', sans-serif;}
+    .input-group-text{background-color: transparent;border: 0px;    padding: 0;
+        font-size: 0;}
+    img.serch {
+        position: relative;
+        margin-left: -67px;    z-index: 999;
+    }
+    input.form-control.inputserch{
+        min-width: 297px; max-width: 297px;  
+    }
+    .menusvg{margin-right: 8px;}
+.nav-link:hover {
+        color: #da1a35!important;
+    }
+    a.navbtn {
+        color: #da1a35;
+        text-decoration: none;
+        border: 1px solid #da1a35;
+        width: 232px;
+       
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50rem;
+        margin: 24px 0px 24px 24px;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: transparent;
+}
+
+.form-control::-webkit-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:  #070706; 
+    opacity: 1 /* Firefox */
+}
+
+.form-control::-moz-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #070706; 
+    opacity: 1 /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #070706; 
+    opacity: 1 /* Firefox */
+}
+
+.form-control::-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:  #070706; 
+    opacity: 1 /* Firefox */
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:  #070706; 
+    opacity: 1 /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:  #070706 
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color:  #070706 
+}
+.dnone{display: none!important;}
+.dblock{display:block;}
+
+
+    /* ============================================header section end====================================== */
+
+        /* ============================================hero section====================================== */
+
+        .hero{background-color: #aecdd7;
+            height: 542px;  
+            
+            /* box-shadow: inset 0 7px 9px -7px rgba(0,0,0,0.4); */
+            margin-top: 150px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .hero h1{ font-size: 42px;
+            font-weight: bold;text-transform: uppercase;
+            font-stretch: normal;
+            font-style: normal;
+            line-height:48px;
+            letter-spacing: 10px;
+            color: #fff;}
+            .hero p{  font-size: 80px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;    
+                line-height: normal;
+                letter-spacing: normal;
+                color: #fff;}
+         .hero a.hero-btn {
+            width: 171px;
+            height: 48px;display: flex;
+            align-items: center;  font-weight: 500;
+            justify-content: center;
+         border: 2px solid #da1a35;
+            padding: 12px 40px 14px 41px;
+            border-radius: 24px;
+            text-transform: uppercase;
+            background-color: #da1a35;
+            color: #fff;
+            text-decoration: none;
+        }
+        .hero a.hero-btn:hover{ border:2px solid #da1a35; color: #da1a35; background-color: transparent;}
+   .priceing {
+            position: relative;
+            margin-left: -230px;
+            top: -21px;    overflow: hidden;
+        }
+ /* ============================================hero section end====================================== */
+
+/* ============================================product section====================================== */
+.product{padding:100px 0px 0px 0px;}
+.product-img{border: 10px solid #f5f5f5;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 20px;
+}
+.product-detail {text-align: center;}
+.product-detail h2{font-size: 20px; line-height: 24px;color:#333333;text-transform: uppercase; }
+.product-detail span{font-weight: bold;text-transform: capitalize;}
+.product-detail p{font-size: 15px; line-height: 20px;color:#333333;padding:8px 15px 20px 15px; }
+.product-detail a.product-btn {
+    width:100%;display: block;
+    height: 48px;
+color: #da1a35;
+    padding: 12px 12px ;
+    border-radius: 24px;
+    border: solid 2px #da1a35;
+    background-color: #fff;
+    font-size: 16px;text-decoration: none;font-weight: 500;
+    text-transform: uppercase;
+ 
+}
+.product-detail a.product-btn:hover{ border: solid 2px #da1a35; color: #fff; background-color: #da1a35;}
+.swiper-button-next:after {
+    content: 'next';
+    color: #000;
+}
+.swiper-button-prev:after{
+    content: 'prev';
+    color: #000;
+}
+
+.swiper.mySwiper {
+    max-width: 1550px;
+    width: 100%;
+    padding: 0px 50px;
+    padding-bottom: 100px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    top: 40%!important;}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 0!important;
+    left: auto;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 0!important;
+    right: auto;
+}
+.title{ font-size: 48px;text-transform: uppercase;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333;}
+ /* ============================================product section end====================================== */
+
+ /* ============================================product card section====================================== */
+ .product-card{padding-bottom: 100px;}
+.product-card-red{color: #fff;background-color: #da1a35; padding: 10px; }
+.product-card-gray{color: #fff;background-color: #333333; padding: 10px; }
+
+.product-card-red:hover .inrboder{border: 2px solid  #333333;  }
+.product-card-gray:hover .inrboder{border: 2px solid #da1a35;  }
+    .product-card a.cardtitle{
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        font-size: 13px;
+        background-color: transparent;
+        border: 1px solid #fff;
+        padding: 5px 10px;
+        border-radius: 20px;
+ 
+}
+.inrrow {
+    padding: 24px;
+    padding-right: 0px;
+}
+.product-card a.shop{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:  #da1a35;
+    font-size: 16px;
+    background-color: #fff;
+border: 2px solid #fff;
+    width: 153px;
+    height: 48px;
+    display: block;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+.product-card-red:hover a.shop{border: 2px solid  #333333;  }
+.product-card-gray:hover a.shop{border: 2px solid #da1a35;  }
+   .product-card h5{margin: 20px 0 16px;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: normal;
+    color: #fff;}
+ .inrboder{border: 2px solid #fff;}
+.min-img-ht{
+    min-height: 269.27px;
+    
+}
+
+  /* ============================================product card section end====================================== */
+
+
+    /* ============================================service section====================================== */
+    .service{padding:0px 0px 100px 0px}
+    .service p{font-size: 18px;line-height: 24px; color: #333;}
+    a.servicebtn{width: 171px;
+        height: 48px;
+        margin-top: 30px;
+        padding: 12px 20px 14px 41px;
+        border-radius: 24px;
+        text-transform: uppercase;
+        background-color: #da1a35;
+        border: 2px solid #da1a35;
+        color: #fff;display: block;
+        text-decoration: none}
+
+        a.servicebtn:hover{   background-color: transparent;
+            border: 2px solid #da1a35;color: #da1a35;}
+      /* ============================================service card section end====================================== */
+
+
+
+ /* ============================================FOOTER====================================== */
+footer{padding: 96px 0px 110px 0px;background-color: #202020;color: #fff;}
+footer a{color:#fff;font-size: 18px; line-height: 26px;}
+footer a span{display: block; font-weight: bold;}
+.copyrgt{color: #333333; padding: 24px 15px;font-size: 14px; text-align: center;margin-bottom: 0px; }
+.ftricon{padding-right: 15px;    line-height: 26px;}
+footer li {
+    display: flex;
+    align-items: start;padding-bottom: 32px;
+}
+footer h5{padding-bottom: 35px; font-size: 24px;}
+ul.bullate li{position: relative;text-transform: capitalize;padding-bottom: 18px;}
+ul.bullate li:before{position: relative;
+content: '';
+width: 8px;
+height: 8px;
+margin: 10px 10px 0px 1px;
+border-radius: 4px;
+border: solid 2px #da1a35;
+background-color: #333;
+}
+footer .social{padding-top: 34px;}
+  /* ============================================FOOTER END====================================== */

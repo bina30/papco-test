@@ -1,0 +1,89 @@
+@media (min-width: 1650px){
+.container{
+    max-width: 1430px;
+}}
+
+
+
+@media (max-width: 1475px) { 
+    .product-detail a.product-btn {
+        width: 100%;padding: 10px;
+     font-size: 14px;}
+
+
+ }
+ @media (min-width:991.98px) and (max-width:  1420px) {     .navbar-nav {
+  
+    flex-wrap: wrap;
+
+
+
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+input.form-control.inputserch {
+    min-width: unset;
+    max-width: 297px;
+}
+
+.min-img-ht {
+    min-height: unset;
+}
+
+.product-card h5 {
+    font-size: 20px;
+
+    line-height: 25px;
+
+}
+}
+@media (max-width: 767.98px) { 
+
+       .hero{height: 100%;    
+          padding: 50px 0px;}   
+          .hero h1 {
+            font-size: 30px;}
+            .hero p {
+                font-size: 60px;} 
+
+
+}
+
+@media (max-width: 991.98px) {   input.form-control.inputserch{
+    margin: 0.5rem 1rem;
+}
+
+
+}
+
+@media (max-width: 575.98px) {
+    input.form-control.inputserch {
+    min-width: unset;
+    max-width: unset;
+} 
+
+.hero h1 {
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+.hero p {
+    font-size: 40px;
+}
+.title {
+    font-size: 25px;}
+    .swiper.mySwiper {
+        max-width: 1500px;
+        width: 100%;
+        padding: 0px;
+    }
+    footer {
+        padding: 50px 0px;}
+        .copyrgt {
+            padding: 10px;}
+
+}
